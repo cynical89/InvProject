@@ -26,7 +26,7 @@ namespace InvProject
         //Place holder to query SQL
         static string queryText;
         //This is the info to connect to the SQL server remotely
-        protected static SqlConnection myCon = new SqlConnection(@"Data Source=localiphere;Initial Catalog=testdata;User ID=userhere;Password=passhere");
+        protected static SqlConnection myCon = new SqlConnection(@"Data Source=datasourceiphere;Initial Catalog=testdata;User ID=userhere;Password=passhere");
 
         //This function returns whether or not the user name and password combination are correct or not.
         static string UserLogin(string _user, string _pass)
