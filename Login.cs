@@ -35,7 +35,7 @@ namespace InvProject
             if(Convert.ToInt32(returnedInfo) > 0)
             {
                 DialogResult = DialogResult.OK;
-    
+                MainView._user = _user;
             }
             else
             {
